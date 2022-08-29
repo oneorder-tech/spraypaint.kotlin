@@ -1,4 +1,3 @@
-![Pipeline workflow](https://github.com/undabot/izzy-json-api-android/actions/workflows/ci.yaml/badge.svg)
 ![Kotlin](https://img.shields.io/badge/platform-kotlin-lightgrey)
 ![Android](https://img.shields.io/badge/platform-android-green)
 ![License](https://img.shields.io/github/license/undabot/izzy-json-api-android)
@@ -6,15 +5,17 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.undabot.izzy-json-api-android/parser/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.undabot.izzy-json-api-android/parser)
 [![](https://jitpack.io/v/undabot/izzy-json-api-android.svg)](https://jitpack.io/#undabot/izzy-json-api-android)
 
-# JSON-API Docs
+# Json-Api & Graphiti Docs
+Json-Api: https://jsonapi.org/
+Graphiti: https://www.graphiti.dev/guides/
 
-# Izzy 
-A JSON API implementation written in Kotlin, supporting your favorite JSON parsers!
+# SprayPaint.Kotlin 
+A JSON API & Graphiti implementation written in Kotlin, supporting your favorite JSON parsers!
 
 
-## What is Izzy?
+## What is SprayPaint.Kotlin?
 
-Izzy is a 🐶. Also, Izzy is a JSON API standard implementation in Kotlin. 
+SprayPaint.Kotlin is a 🐶. Also, SprayPaint.Kotlin is a JSON API & Graphiti standard implementation in Kotlin. 
 It’s a library that allows you to plug in your JSON parser of choice, say which types are JSON-API types and it will automagically serialise and deserialise your objects for you from and to JSON API compliant forms. 
 We’ve built it to work together with your favourite JSON parsers, be it Gson, Jackson, or Moshi (in progress) whatever you choose - instead of forcing a parser on you.
 
@@ -35,26 +36,28 @@ allprojects {
 
 Jackson:
 ```groovy
+//TODO:: add public groovy Jackson repo
 implementation 'com.undabot.izzy-json-api-android:jackson-adapter:<version>'
 ```
 Gson
 ```groovy
+//TODO:: add public groovy Gson repo
 implementation 'com.undabot.izzy-json-api-android:gson-adapter:<version>'
 ```
 
 3. Register the types you want or need.
     - When you are setting up your instance of `Izzy`, you need to pass the `IzzyConfiguration` a list of classes (or just one) you're going to use with Izzy.
     - For example, when using `Izzy` with Jackson, you'd create an instance like this:
-	```kotlin
-	Izzy(
-	    JacksonParser(
-	        IzzyConfiguration(
-	            ArticleResource::class.java,
-	            PersonResource::class.java
-	        )
-	    )
-	 )
-	```
+    ```kotlin
+    Izzy(
+        JacksonParser(
+            IzzyConfiguration(
+                ArticleResource::class.java,
+                PersonResource::class.java
+            )
+        )
+     )
+    ```
 
 4. Let your models extend `IzzyResource` and annotate them using `@Type(“yourTypeHere”)`
     - relationships must be annotated with `@Relationship(“nameGoesHere”)`
@@ -67,16 +70,25 @@ implementation 'com.undabot.izzy-json-api-android:gson-adapter:<version>'
         var title: String? = null,
         var body: String? = null,
         var created: String? = null,
-        var updated: String? = null
-    ): IzzyResource {
+        var updated: String? = null,
+        method: String
+    ): IzzyResource(method = method) {
+    
         @Relationship("coauthors") var coauthors: List<PersonResource>? = emptyArray()
         @Relationship("author") var authors: PersonResource? = null
     }
     ```
-
+    method should be 1 of 4 values
+    ```
+   SidePosting.METHOD_UPDATE
+   SidePosting.METHOD_CREATE
+   SidePosting.METHOD_DISASSOCIATE
+   SidePosting.METHOD_DESTROY
+   ```
 5. Add a Retrofit plugin if you use Retrofit (or don’t if you don’t)
 
 ```groovy
+//TODO:: add public groovy retrofit repo
 implementation 'com.undabot.izzy-json-api-android:retrofit-converter:<version>'
 ```
 
@@ -170,9 +182,9 @@ data class ArticleResource(
 
 @Type("persons")
 data class PersonResource(
-    @JsonProperty("name") var name: String? = null
-): IzzyResource() {
-
+    @JsonProperty("name") var name: String? = null,
+    method: String
+): IzzyResource(method = method) {
     @Relationship("favorite_article") var favoriteArticle: ArticleResource? = null
 }
 
@@ -231,24 +243,3 @@ interface ApiService {
     ): Response<JsonDocument<ArticleResource>>
 }
 ```
-
-# Contributing
-
-Please take the time to carefully read the following guide. These rules help make the best out of your time, the code reviewer's time and the general consistency of the project.
-
-## General rules
-
-All contributions are handled via Pull Requests (PRs). Your PR _must_ target the [develop](https://github.com/undabot/izzy-json-api-android/tree/develop) branch. Your PR is required to pass all tests and contain clear description. By making contributions to this project you give permission for your code to be used under the same [license](./LICENSE).
-
-## Reporting Issues
-
-A great way to contribute to the project is to send a detailed issue when you encounter a problem. We always appreciate a well-written, thorough bug report. Before creating new issue make sure to go through issue list and look for potential duplicate of your issue. If you find a match in issues list please leave a vote or additional comment to help us prioritize most common issues.
-
-Be sure to include in your issue:
-
-- **Descriptive title** - use keywords so others can find your bug (avoiding duplicates)
-- **Steps** to trigger the problem that are specific, and repeatable
-- **What happens** when you follow the steps, and what you expected to happen instead. Include the exact text of any error messages if applicable.
-- **Version** of json-api-android used
-- **Did this work in a previous version?** If so, also provide the version that it worked in.
-- **Device type** & **OS version** where this issue can be reproduced.
