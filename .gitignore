@@ -99,3 +99,4 @@ lint/tmp/
 gradle/wrapper/
 Key/
 app/google-services.json
+secring.gpg

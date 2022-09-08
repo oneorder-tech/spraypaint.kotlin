@@ -1,0 +1,13 @@
+ext {
+    buildConfig = [
+            "minSdk"    : 23,
+            "compileSdk": 31,
+            "targetSdk" : 31,
+            "buildTools": "30.0.3"
+    ]
+    releaseConfig = [
+            "group"      : "io.github.oneorder-tech",
+            "version"    : "1.0.1-Beta",
+            "versionCode": 1
+    ]
+}

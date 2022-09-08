@@ -14,6 +14,7 @@ class GsonParser(
         return GsonElements(gson.fromJson(json, JsonElement::class.java))
     }
 
+    @Suppress("UNCHECKED_CAST")
     override fun <T : IzzyResource> parse(json: String, type: Class<*>): T {
         return gson.fromJson(json, type) as T
     }

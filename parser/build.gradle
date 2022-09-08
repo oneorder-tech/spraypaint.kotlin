@@ -1,7 +1,14 @@
 plugins {
     id 'java-library'
     id 'org.jetbrains.kotlin.jvm'
+    id "kotlin"
+    id "kotlinx-serialization"
 }
+
+apply from: "$rootDir/detekt.gradle"
+apply from: "$rootDir/ktlint.gradle"
+apply from: "$rootDir/dokka.gradle"
+apply from: "$rootDir/maven-publish.gradle"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_1_7
@@ -12,3 +19,21 @@ dependencies {
     api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     api "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
 }
+
+ext.mavenPublishProperties = [
+        group      : releaseConfig.group,
+        version    : releaseConfig.version,
+        artifactId   : "parser",
+        repository : [
+                url     : sonatype.url,
+                username: sonatype.username,
+                password: sonatype.password
+        ],
+        name       : "SprayPaint.Kt Parser",
+        description: "SprayPaint.Kt Parser module",
+        url        : "https://github.com/oneorder-tech/spraypaint.kotlin",
+        scm        : [
+                connection: "https://github.com/oneorder-tech/spraypaint.kotlin.git",
+                url       : "https://github.com/oneorder-tech/spraypaint.kotlin"
+        ]
+]
