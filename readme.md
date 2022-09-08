@@ -221,7 +221,7 @@ val retrofit = Retrofit.Builder()
 val apiService = retrofit.create(ApiService::class.java)
 ```
 
-**Api service example**
+**API service example**
 
 ```kotlin
 interface ApiService {
