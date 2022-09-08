@@ -1,9 +1,10 @@
 ![Kotlin](https://img.shields.io/badge/platform-kotlin-lightgrey)
 ![Android](https://img.shields.io/badge/platform-android-green)
-![License](https://img.shields.io/github/license/undabot/izzy-json-api-android)
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.undabot.izzy-json-api-android/parser/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.undabot.izzy-json-api-android/parser)
-[![](https://jitpack.io/v/undabot/izzy-json-api-android.svg)](https://jitpack.io/#undabot/izzy-json-api-android)
+Current Version
+```version
+1.0.1-Beta
+```
 
 # Json-Api & Graphiti Docs
 Json-Api: https://jsonapi.org/
@@ -36,13 +37,11 @@ allprojects {
 
 Jackson:
 ```groovy
-//TODO:: add public groovy Jackson repo
-implementation 'com.undabot.izzy-json-api-android:jackson-adapter:<version>'
+implementation 'io.github.oneorder-tech:jackson-adapter:<version>'
 ```
 Gson
 ```groovy
-//TODO:: add public groovy Gson repo
-implementation 'com.undabot.izzy-json-api-android:gson-adapter:<version>'
+implementation 'io.github.oneorder-tech:gson-adapter:<version>'
 ```
 
 3. Register the types you want or need.
@@ -88,8 +87,7 @@ implementation 'com.undabot.izzy-json-api-android:gson-adapter:<version>'
 5. Add a Retrofit plugin if you use Retrofit (or don’t if you don’t)
 
 ```groovy
-//TODO:: add public groovy retrofit repo
-implementation 'com.undabot.izzy-json-api-android:retrofit-converter:<version>'
+implementation 'io.github.oneorder-tech:retrofit-converter:<version>'
 ```
 
 And you’re ready to be JSON-API Compliant!
