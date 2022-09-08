@@ -10,13 +10,13 @@ Current Version
 Json-Api: https://jsonapi.org/
 Graphiti: https://www.graphiti.dev/guides/
 
-# SprayPaint.Kotlin 
+# Spraypaint.kotlin 
 A JSON API & Graphiti implementation written in Kotlin, supporting your favorite JSON parsers!
 
 
-## What is SprayPaint.Kotlin?
+## What is Spraypaint.kotlin?
 
-SprayPaint.Kotlin is a 🐶. Also, SprayPaint.Kotlin is a JSON API & Graphiti standard implementation in Kotlin. 
+Spraypaint.kotlin is a 🐶. Also, SprayPaint.Kotlin is a JSON API & Graphiti standard implementation in Kotlin. 
 It’s a library that allows you to plug in your JSON parser of choice, say which types are JSON-API types and it will automagically serialise and deserialise your objects for you from and to JSON API compliant forms. 
 We’ve built it to work together with your favourite JSON parsers, be it Gson, Jackson, or Moshi (in progress) whatever you choose - instead of forcing a parser on you.
 
@@ -77,7 +77,7 @@ implementation 'io.github.oneorder-tech:gson-adapter:<version>'
         @Relationship("author") var authors: PersonResource? = null
     }
     ```
-    method should be 1 of 4 values
+    Method could be 1 of 4 values:
     ```
    SidePosting.METHOD_UPDATE
    SidePosting.METHOD_CREATE
