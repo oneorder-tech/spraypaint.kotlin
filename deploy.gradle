@@ -1,0 +1,55 @@
+task deployParser(dependsOn: [
+        ':parser:clean',
+        ':parser:publishReleasePublicationToSonatypeMavenCentralRepository'
+]) {
+    group = "Deploy"
+    description = "Deploy module to repositories"
+}
+
+task deployGson(dependsOn: [
+        ':gson-adapter:clean',
+        ':gson-adapter:publishReleasePublicationToSonatypeMavenCentralRepository'
+]) {
+    group = "Deploy"
+    description = "Deploy module to repositories"
+}
+
+task deployJackson(dependsOn: [
+        ':jackson-adapter:clean',
+        ':jackson-adapter:publishReleasePublicationToSonatypeMavenCentralRepository'
+]) {
+    group = "Deploy"
+    description = "Deploy module to repositories"
+}
+
+task deployRetrofit(dependsOn: [
+        ':retrofit-converter:clean',
+        ':retrofit-converter:publishReleasePublicationToSonatypeMavenCentralRepository'
+]) {
+    group = "Deploy"
+    description = "Deploy module to repositories"
+}
+
+task deployAll(dependsOn: [
+        'deployParser',
+        'deployGson',
+        'deployJackson',
+        'deployRetrofit',
+]) {
+    group = "Deploy"
+    description = "Deploy all modules to repositories"
+}
+
+task deployDebug(dependsOn: [
+        ':parser:clean',
+        ':gson-adapter:clean',
+        ':jackson-adapter:clean',
+        ':retrofit-converter:clean',
+        ':parser:publishToMavenLocal',
+        ':gson-adapter:publishToMavenLocal',
+        ':jackson-adapter:publishToMavenLocal',
+        ':retrofit-converter:publishToMavenLocal',
+]) {
+    group = "Deploy"
+    description = "Deploy all modules to Mavel Local repository"
+}

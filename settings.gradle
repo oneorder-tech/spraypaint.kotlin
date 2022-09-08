@@ -3,6 +3,7 @@ pluginManagement {
         gradlePluginPortal()
         google()
         mavenCentral()
+        mavenLocal()
     }
 }
 dependencyResolutionManagement {
@@ -16,4 +17,5 @@ rootProject.name = "SprayPaint.Kotlin"
 include ':sample'
 include ':parser'
 include ':gson-adapter'
+include ':jackson-adapter'
 include ':retrofit-converter'
