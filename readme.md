@@ -2,7 +2,7 @@
 ![Android](https://img.shields.io/badge/platform-android-green)
 
 # Spraypaint.kotlin 
-A JSON:API & Graphiti implementation written in Kotlin, supporting your favorite JSON parsers!
+A Graphiti JSON:API implementation written in Kotlin, supporting your favorite JSON parsers!
 
 Current version:
 ```version
@@ -11,7 +11,7 @@ Current version:
 
 ## What is Spraypaint.kotlin?
 
-Spraypaint.Kotlin is a JSON:API & Graphiti standard implementation in Kotlin. It’s a library that allows you to plug in your JSON parser of choice, say which types are JSON:API types and it will automagically serialise and deserialise your objects for you from and to JSON:API compliant forms. 
+Spraypaint.Kotlin is a Graphiti JSON:API standard implementation in Kotlin. It’s a library that allows you to plug in your JSON parser of choice, say which types are JSON:API types and it will automagically serialise and deserialise your objects for you from and to JSON:API compliant forms. 
 We’ve built it to work together with your favourite JSON parsers, be it Gson or Jackson whatever you choose - instead of forcing a parser on you.
 
 ## In-depth documentation
