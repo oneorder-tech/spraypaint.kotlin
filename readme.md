@@ -14,8 +14,9 @@ Current version:
 Spraypaint.Kotlin is a JSON:API & Graphiti standard implementation in Kotlin. It’s a library that allows you to plug in your JSON parser of choice, say which types are JSON:API types and it will automagically serialise and deserialise your objects for you from and to JSON:API compliant forms. 
 We’ve built it to work together with your favourite JSON parsers, be it Gson or Jackson whatever you choose - instead of forcing a parser on you.
 
-## JSON:API & Graphiti Docs
+## In-depth documentation
 JSON:API: https://jsonapi.org/
+
 Graphiti: https://www.graphiti.dev/guides/
 
 ## How to set it up:
