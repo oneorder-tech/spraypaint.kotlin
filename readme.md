@@ -19,7 +19,7 @@ JSON:API: https://jsonapi.org/
 
 Graphiti: https://www.graphiti.dev/guides/
 
-## How to set it up:
+## How to set it up
 
 1. Add JitPack or MavenCentral repository to root project `build.gradle` file:
 ```groovy
@@ -92,7 +92,7 @@ implementation 'io.github.oneorder-tech:retrofit-converter:<version>'
 And you’re ready to be JSON-API Compliant!
 
 
-## Components:
+## Components
 
 **`IzzyResource`**
 - the base resource class
