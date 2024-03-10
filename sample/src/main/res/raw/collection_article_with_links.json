@@ -1,0 +1,457 @@
+{
+  "data": [
+    {
+      "id": "24",
+      "type": "brands",
+      "attributes": {
+        "name": "Juhayna",
+        "position": 1,
+        "original_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcWw4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--39efae350f6fd632d23422aa6237c70b837c1093/download.jpeg",
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Dairy \u0026 Eggs",
+            "products_count": 14
+          },
+          {
+            "category_name": "Beverages",
+            "products_count": 13
+          }
+        ],
+        "original_en_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcWw4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--39efae350f6fd632d23422aa6237c70b837c1093/download.jpeg",
+        "original_ar_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcXA4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--47e170c6d434a265934e32ea12ca725d009e2f3b/download.jpeg"
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "7",
+      "type": "brands",
+      "attributes": {
+        "name": "Red Bull",
+        "position": 2,
+        "original_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcXQ4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9b097cfad813827332a3e31615c3be767c5a59bc/redb.png",
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Seafood",
+            "products_count": 1
+          },
+          {
+            "category_name": "Beverages",
+            "products_count": 2
+          }
+        ],
+        "original_en_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcXQ4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9b097cfad813827332a3e31615c3be767c5a59bc/redb.png",
+        "original_ar_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcXg4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2f3f3de1c8eb40f15d64ec869d0a78c766c1915b/redb.png"
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "8",
+      "type": "brands",
+      "attributes": {
+        "name": "Almarai",
+        "position": 3,
+        "original_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcTE4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--46d0d1c2cbfbccb62b543b1c344b4ae06576a689/marai.png",
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Dairy \u0026 Eggs",
+            "products_count": 4
+          }
+        ],
+        "original_en_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcTE4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--46d0d1c2cbfbccb62b543b1c344b4ae06576a689/marai.png",
+        "original_ar_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcTU4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a6f8c989da4bbd00c3f538dfa7384e7aec6157ca/marai.png"
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "213",
+      "type": "brands",
+      "attributes": {
+        "name": "Maggi",
+        "position": 4,
+        "original_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBckY4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--59653c32e779ce3918a4541ec03f7def8980f851/ba4ae100-2a8a-4e60-98fb-111b3b43afd1.JPG",
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Canned \u0026 Dry",
+            "products_count": 2
+          }
+        ],
+        "original_en_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBckY4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--59653c32e779ce3918a4541ec03f7def8980f851/ba4ae100-2a8a-4e60-98fb-111b3b43afd1.JPG",
+        "original_ar_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcko4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9e69fe056866c86903572b9bd4aa88a1420e16ae/ba4ae100-2a8a-4e60-98fb-111b3b43afd1.JPG"
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "4",
+      "type": "brands",
+      "attributes": {
+        "name": "Heinz",
+        "position": 5,
+        "original_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcTk4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f94c3b222fd29c503638b5a95a830b167fda6922/redb.png",
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Canned \u0026 Dry",
+            "products_count": 23
+          }
+        ],
+        "original_en_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcTk4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f94c3b222fd29c503638b5a95a830b167fda6922/redb.png",
+        "original_ar_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBckI4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ac165a216b14942203b0e4755f27d230fe457eea/redb.png"
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "3",
+      "type": "brands",
+      "attributes": {
+        "name": "Arma Criystal",
+        "position": 6,
+        "original_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBclY4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d19b8fc0006c83953ddb8d43ee6579096110e999/ba4ae100-2a8a-4e60-98fb-111b3b43afd1.JPG",
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Canned \u0026 Dry",
+            "products_count": 3
+          }
+        ],
+        "original_en_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBclY4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d19b8fc0006c83953ddb8d43ee6579096110e999/ba4ae100-2a8a-4e60-98fb-111b3b43afd1.JPG",
+        "original_ar_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBclo4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--e72c2fcfdda1a46b0499986cf091aa6d99ce1117/ba4ae100-2a8a-4e60-98fb-111b3b43afd1.JPG"
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "5",
+      "type": "brands",
+      "attributes": {
+        "name": "Cooks",
+        "position": 7,
+        "original_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBck44IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d07fc308711d147fc4b0bd4ff4928ea5acabc925/ba4ae100-2a8a-4e60-98fb-111b3b43afd1.JPG",
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Canned \u0026 Dry",
+            "products_count": 3
+          },
+          {
+            "category_name": "Bakery",
+            "products_count": 1
+          }
+        ],
+        "original_en_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBck44IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d07fc308711d147fc4b0bd4ff4928ea5acabc925/ba4ae100-2a8a-4e60-98fb-111b3b43afd1.JPG",
+        "original_ar_url": "https://dev-oneorder.herokuapp.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBclI4IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5443b1028a8cdd23379930518558065af734048c/redb.png"
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "1",
+      "type": "brands",
+      "attributes": {
+        "name": "Mc.Ilhenny Co",
+        "position": 9,
+        "original_url": null,
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Canned \u0026 Dry",
+            "products_count": 2
+          }
+        ],
+        "original_en_url": null,
+        "original_ar_url": null
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "11",
+      "type": "brands",
+      "attributes": {
+        "name": "Al Ahram",
+        "position": 14,
+        "original_url": null,
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Beverages",
+            "products_count": 1
+          }
+        ],
+        "original_en_url": null,
+        "original_ar_url": null
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "13",
+      "type": "brands",
+      "attributes": {
+        "name": "Vitrac",
+        "position": 15,
+        "original_url": null,
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Canned \u0026 Dry",
+            "products_count": 5
+          },
+          {
+            "category_name": "Beverages",
+            "products_count": 2
+          }
+        ],
+        "original_en_url": null,
+        "original_ar_url": null
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "17",
+      "type": "brands",
+      "attributes": {
+        "name": "Regina",
+        "position": 19,
+        "original_url": null,
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Canned \u0026 Dry",
+            "products_count": 12
+          }
+        ],
+        "original_en_url": null,
+        "original_ar_url": null
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "18",
+      "type": "brands",
+      "attributes": {
+        "name": "Calvatis",
+        "position": 20,
+        "original_url": null,
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Chemical \u0026 Janitorial",
+            "products_count": 3
+          }
+        ],
+        "original_en_url": null,
+        "original_ar_url": null
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "19",
+      "type": "brands",
+      "attributes": {
+        "name": "Beaufor",
+        "position": 21,
+        "original_url": null,
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Canned \u0026 Dry",
+            "products_count": 1
+          }
+        ],
+        "original_en_url": null,
+        "original_ar_url": null
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "20",
+      "type": "brands",
+      "attributes": {
+        "name": "L Aretino",
+        "position": 22,
+        "original_url": null,
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Canned \u0026 Dry",
+            "products_count": 1
+          }
+        ],
+        "original_en_url": null,
+        "original_ar_url": null
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "21",
+      "type": "brands",
+      "attributes": {
+        "name": "Rich",
+        "position": 23,
+        "original_url": null,
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Canned \u0026 Dry",
+            "products_count": 2
+          }
+        ],
+        "original_en_url": null,
+        "original_ar_url": null
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "23",
+      "type": "brands",
+      "attributes": {
+        "name": "Shori",
+        "position": 25,
+        "original_url": null,
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Seafood",
+            "products_count": 3
+          },
+          {
+            "category_name": "Canned \u0026 Dry",
+            "products_count": 1
+          },
+          {
+            "category_name": "Paper \u0026 Disposables",
+            "products_count": 1
+          }
+        ],
+        "original_en_url": null,
+        "original_ar_url": null
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "28",
+      "type": "brands",
+      "attributes": {
+        "name": "Asr",
+        "position": 29,
+        "original_url": null,
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Canned \u0026 Dry",
+            "products_count": 1
+          }
+        ],
+        "original_en_url": null,
+        "original_ar_url": null
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "30",
+      "type": "brands",
+      "attributes": {
+        "name": "Uncle Barns",
+        "position": 31,
+        "original_url": null,
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Canned \u0026 Dry",
+            "products_count": 2
+          }
+        ],
+        "original_en_url": null,
+        "original_ar_url": null
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "37",
+      "type": "brands",
+      "attributes": {
+        "name": "Kikkoman",
+        "position": 38,
+        "original_url": null,
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Canned \u0026 Dry",
+            "products_count": 1
+          }
+        ],
+        "original_en_url": null,
+        "original_ar_url": null
+      },
+      "relationships": {
+
+      }
+    },
+    {
+      "id": "39",
+      "type": "brands",
+      "attributes": {
+        "name": "Mainz",
+        "position": 40,
+        "original_url": null,
+        "promoted": true,
+        "category_details": [
+          {
+            "category_name": "Dairy \u0026 Eggs",
+            "products_count": 5
+          }
+        ],
+        "original_en_url": null,
+        "original_ar_url": null
+      },
+      "relationships": {
+
+      }
+    }
+  ],
+  "links": {
+    "self": "https://dev-oneorder.herokuapp.com/v1/brands?extra_fields%5Bbrands%5D=category_details\u0026filter%5Bpromoted%5D=true\u0026locale=en\u0026page%5Bnumber%5D=1\u0026page%5Bsize%5D=20\u0026pagination_links=true\u0026sort=position",
+    "first": "https://dev-oneorder.herokuapp.com/v1/brands?extra_fields%5Bbrands%5D=category_details\u0026filter%5Bpromoted%5D=true\u0026locale=en\u0026page%5Bnumber%5D=1\u0026page%5Bsize%5D=20\u0026pagination_links=true\u0026sort=position",
+    "last": "https://dev-oneorder.herokuapp.com/v1/brands?extra_fields%5Bbrands%5D=category_details\u0026filter%5Bpromoted%5D=true\u0026locale=en\u0026page%5Bnumber%5D=13\u0026page%5Bsize%5D=20\u0026pagination_links=true\u0026sort=position",
+    "next": "https://dev-oneorder.herokuapp.com/v1/brands?extra_fields%5Bbrands%5D=category_details\u0026filter%5Bpromoted%5D=true\u0026locale=en\u0026page%5Bnumber%5D=2\u0026page%5Bsize%5D=20\u0026pagination_links=true\u0026sort=position"
+  },
+  "meta": {
+
+  }
+}

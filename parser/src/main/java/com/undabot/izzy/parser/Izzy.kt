@@ -19,6 +19,7 @@ class Izzy(private val izzyJsonParser: IzzyJsonParser) {
 
     fun <T : IzzyResource> deserializeToDocument(json: String): JsonDocument<T> {
         val jsonTree = izzyJsonParser.parseToJsonElements(json)
+        val jsonTree2 = izzyJsonParser.parseToJsonElements(json)
         validate(jsonTree)
 
         var resource: T? = null
@@ -32,9 +33,9 @@ class Izzy(private val izzyJsonParser: IzzyJsonParser) {
 
         return JsonDocument(
             data = resource,
-            links = linksFrom(jsonTree),
+            links = linksFrom(jsonTree2),
             errors = errors,
-            meta = metaFrom(jsonTree)
+            meta = metaFrom(jsonTree2)
         )
     }
 
@@ -44,6 +45,7 @@ class Izzy(private val izzyJsonParser: IzzyJsonParser) {
      * */
     fun <T : IzzyResource> deserializeToCollection(json: String): JsonDocument<List<T>> {
         val jsonTree = izzyJsonParser.parseToJsonElements(json)
+        val jsonTree2 = izzyJsonParser.parseToJsonElements(json)
         validate(jsonTree)
 
         var resourceCollection: List<T>? = null
@@ -57,9 +59,9 @@ class Izzy(private val izzyJsonParser: IzzyJsonParser) {
 
         return JsonDocument(
             data = resourceCollection,
-            links = linksFrom(jsonTree),
+            links = linksFrom(jsonTree2),
             errors = errors,
-            meta = metaFrom(jsonTree)
+            meta = metaFrom(jsonTree2)
         )
     }
 

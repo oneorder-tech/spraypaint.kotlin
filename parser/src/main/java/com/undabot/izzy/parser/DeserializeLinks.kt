@@ -1,5 +1,6 @@
 package com.undabot.izzy.parser
 
+import com.undabot.izzy.models.Link
 import com.undabot.izzy.models.Links
 
 class DeserializeLinks(private val deserializeLink: DeserializeLink = DeserializeLink()) {
@@ -22,6 +23,12 @@ class DeserializeLinks(private val deserializeLink: DeserializeLink = Deserializ
     private fun hasLinks(jsonElements: JsonElements) =
         jsonElements.has(LINKS) && jsonElements.hasNonNull(LINKS)
 
-    private fun linkFrom(jsonElements: JsonElements, forKey: String) =
-        deserializeLink.from(jsonElements.jsonElement(forKey))
+    private fun linkFrom(jsonElements: JsonElements, forKey: String): Link? {
+        val link = jsonElements.jsonElement(LINKS).jsonElement(forKey).asString()
+
+        return if (!link.isNullOrEmpty())
+            Link(href = link, meta = null)
+        else null
+    }
+
 }
